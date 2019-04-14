@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "start": "node index.js",
+    "demo": "",
+    "test": ""
+  },
+  "name": "google-assistant-server",
+  "description": "A simple TCP server that forwards audio chunk to Google Assistant",
+  "version": "1.0.0",
+  "dependencies": {
+    "async": "^1.5.2",
+    "google-auth-library": "0.12.0",
+    "google-proto-files": "^0.15.0",
+    "google-protobuf": "^3.3.0",
+    "grpc": "^1.0.0",
+    "homedir": "^0.6.0",
+    "promise.prototype.finally": "3.1.0",
+    "resolve": "1.5.0",
+    "wav": "^1.0.2"
+  }
+}
