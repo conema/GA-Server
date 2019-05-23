@@ -17,10 +17,8 @@ env/bin/pip install --upgrade "google-auth-oauthlib[tool]"
 
 5.  Use the [`google-oauthlib-tool`](https://github.com/GoogleCloudPlatform/google-auth-library-python-oauthlib) to generate credentials:
 ```
-env/bin/google-oauthlib-tool --client-secrets credentials.json \
-                             --credentials devicecredentials.json \
-                             --scope https://www.googleapis.com/auth/assistant-sdk-prototype \
-                             --save
+env/bin/google-oauthlib-tool --scope https://www.googleapis.com/auth/assistant-sdk-prototype \ 
+--save --headless --client-secrets credentials.json
 ```
 6.  Download the project and open it
 7. Run `npm install`
