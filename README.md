@@ -44,4 +44,5 @@ The python script sends `whoisobama.wav` to the server, the server forward it to
 
 ## Projects that use this
 [Choregraphe-GA](https://github.com/conema/Choregraphe-GA) (Robot connected to Google Assistant)
+[ZAGA](https://github.com/conema/ZAGA)
 
